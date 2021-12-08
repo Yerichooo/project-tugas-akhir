@@ -1,0 +1,126 @@
+.header {
+  background-color: #aaaaaa;
+  height: 170px;
+}
+
+.logo {
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.nama-logo {
+  padding-top: 8px;
+  line-height: 10px;
+  color: #f6f6f6;
+}
+
+h1 {
+  font-family: "Copperplate Gothic Bold";
+  font-size: 45px;
+}
+
+.top-wrapper {
+  background-color: #ffc7c7;
+  height: 80px;
+}
+
+.btn {
+  float: left;
+  font-size: 25px;
+}
+
+.btn-home {
+  padding: 0px 80px;
+  text-decoration: none;
+}
+
+.btn-menu {
+  padding: 0px 80px;
+  text-decoration: none;
+}
+
+.btn-reservation {
+  padding: 0px 80px;
+  text-decoration: none;
+}
+
+.btn-ContactUs {
+  padding: 0px 80px;
+  text-decoration: none;
+}
+
+.btn-login {
+  padding: 0px 80px;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #ffe2e2;
+}
+
+.footer {
+  background-color: #f6f6f6;
+  height: 100px;
+  padding-top: 1px;
+}
+
+/*Responsive Tablet*/
+@media (max-width:1000px) {
+  .logo {
+    margin-left: 30px;
+  }
+  .top-wrapper {
+    height: 75px;
+  }
+  .btn {
+    text-align: center;
+  }
+  .btn-home {
+    padding: 45px;
+  }
+  .btn-menu {
+    padding : 45px;
+  }
+  .btn-reservation {
+    padding: 45px;
+  }
+  .btn-ContactUs {
+    padding: 45px;
+  }
+  .btn-login {
+    padding: 45px;
+  }
+}
+
+/*Responsive Handphone*/
+@media (max-width:650px) {
+  .logo {
+    margin-left: 10px;
+  }
+  .top-wrapper {
+    height: 75px;
+  }
+  .btn {
+    text-align: center;
+  }
+  .btn-home {
+    padding: 10px;
+  }
+  .btn-menu {
+    padding : 10px;
+  }
+  .btn-reservation {
+    padding: 10px;
+  }
+  .btn-ContactUs {
+    padding: 10px;
+  }
+  .btn-login {
+    padding: 10px;
+  }
+}
